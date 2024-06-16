@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <div class="header">
+      <!--I will link the blog to the header in Sprint 3 when we learn Javascript-->
+      <a href="#FranBerridge" class="imaage">Fran Berridge</a>
+      <div class="header-right">
+        <a class="active" href="#blog">Blog</a>
+        <a href="#discord">Discord</a>
+        <a href="#github">Github</a>
+      </div>
+    </div>
+
+    <title>The Difference between ID and Class</title>
+
+    <link href="styles/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1 style="text-align: centre">The difference between <span style="color:green">ID </span>and <span style="color:red">Class</span></a></h1>
+    <h2><p>The ID and class selectors are two ways to target HTML elements based on their attributes. They are both used to apply CSS styles to specific elements, but they have some differences in how they work.</p></h2>
+<div>
+    <p>
+      An <span style="color:green"><strong>ID selector</strong></span> is a unique identifier of the HTML element to which a particular style must be applied. It is used only when a single HTML element on the web page must have a specific style.
+      To use an ID selector, you need to add an id attribute to the HTML element, and use a hash (#) followed by the id value in the CSS rule. <br>For example:<br>
+      <br>
+      <span style="color:green"><strong>
+      HTML</strong>
+      <br>
+      p id="blue">The second paragraph.
+        <br>
+        <br>
+      <strong>CSS</strong><br>
+      #blue {
+      color: #1c87c9;
+      }</span>
+      <br>
+      <br>
+      This will apply the blue color to the paragraph with the id of "blue".
+      
+    </p>
+
+    <p>
+      A <span style="color:red"><strong>class selector</strong></span> is used when the same style must be applied to multiple HTML elements on the same web page1.
+      To use a class selector, you need to add a class attribute to the HTML elements, and use a dot (.) followed by the class value in the CSS rule. For example:
+      <br>
+      <br>
+      <span style="color:red"><strong>
+    HTML</strong>
+    <br>
+    h2 class="blue">This is some heading.<br>
+    p class="blue">The third paragraph.
+    <br>
+    <br>
+<strong>CSS</strong><br>
+.blue {
+color: #1c87c9;
+}
+<br>
+<br>
+<strong>HTML</strong><br>
+h2 class="blue">This is some heading.<br>
+p class="blue">The third paragraph.
+<br>
+<br>
+<strong>CSS</strong><br>
+.blue {
+color: #1c87c9;}
+    </p>
+  </div>
+  </main>
+  
+    <footer>
+      <a href="https://www.w3docs.com/learn-css/css-id-and-class.html" target="_blank"><br>For more info visit W3 docs</a>
+      <hr class="bottom line">
+  </footer>
+
+</body>
+
+</html>
