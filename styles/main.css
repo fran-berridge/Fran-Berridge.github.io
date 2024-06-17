@@ -1,7 +1,12 @@
+.responsive-image {
+  width: 100%;
+  height: auto;
+}
+
 .header {
   overflow: hidden;
   background-color: #080808;
-  padding: 20px 40px;
+  padding: 20px 10px;
 }
 
 .header a {
@@ -12,7 +17,7 @@
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
-  border-radius: 50%;
+  border-radius: 4px;
 }
 
 .header a.logo {
@@ -34,10 +39,16 @@
   float: right;
 }
 
-@media screen and (max-width: 500px) .header a {
-  float: none;
-  display: block;
-  text-align: left;
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
 }
 
 h1 {
