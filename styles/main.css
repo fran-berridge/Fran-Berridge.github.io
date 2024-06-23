@@ -64,15 +64,6 @@
   margin-bottom: 20px;
 }
 
-.flexbox {
-  display: flex;
-  flex-direction: row;
-}
-
-img {
-  width: 33%;
-}
-
 h1 {
   text-align: centre;
   padding: 30px;
