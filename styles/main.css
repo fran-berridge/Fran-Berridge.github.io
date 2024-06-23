@@ -51,9 +51,31 @@
   }
 }
 
+.container {
+  background-color: Black;
+  border: 3px solid black;
+  color: white;
+  border-radius: 30px;
+  width: 80%;
+  height: auto;
+  padding: 5px 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  width: 33%;
+}
+
 h1 {
   text-align: centre;
-  padding: 10px;
+  padding: 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -72,6 +94,11 @@ p {
 body {
   margin: 0;
   font-family: Arial;
+}
+
+img {
+  display: block;
+  margin: auto;
 }
 
 .header {
