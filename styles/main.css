@@ -64,11 +64,24 @@
   margin-bottom: 20px;
 }
 
+.backgroundimage {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Ninety_Mile_Beach_looking_south.jpg/640px-Ninety_Mile_Beach_looking_south.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%, 100%;
+  padding: 50px;
+}
+
 h1 {
   text-align: centre;
   padding: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+
+h3 {
+  text-align: centre;
+  margin: auto;
 }
 
 p {
@@ -90,6 +103,7 @@ body {
 img {
   display: block;
   margin: auto;
+  padding: 20px;
 }
 
 .header {
@@ -107,21 +121,30 @@ img {
 
 /* widescreen displays */
 @media only screen and (min-width: 920px) {
-  .container {
+  .container,
+  .backgroundimage,
+  .backgroundimage2,
+  .footer {
     /* some layout rules */
   }
 }
 
 /* tablets */
 @media only screen and (max-width: 919px) {
-  .container {
+  .container,
+  .backgroundimage,
+  .backgroundimage2,
+  .footer {
     /* some layout rules */
   }
 }
 
 /* phones */
 @media only screen and (max-width: 400px) {
-  .container {
+  .container,
+  .backgroundimage,
+  .backgroundimage2,
+  .footer {
     /* some layout rules */
   }
 }
